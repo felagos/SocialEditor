@@ -215,13 +215,13 @@ button {
 		}
 
 		.panel__img {
+			animation: fade-in 1s;
+			transition: transform 0.4s;
+			cursor: pointer;
 			border-radius: 7px;
 			width: 140px;
 			height: 140px;
 			object-fit: cover;
-			cursor: pointer;
-			transition: transform 0.4s;
-			animation: fade-in 1s;
 		}
 
 		.panel__img:nth-child(2) {
@@ -250,13 +250,13 @@ button {
 		}
 
 		.panel__btn {
+			animation: fade-in 1s .5s backwards;
+			transition: background-color 0.4s;
 			cursor: pointer;
 			border-radius: 7px;
 			background-color: #333e44;
 			width: 140px;
 			height: 140px;
-			transition: background-color 0.4s;
-			animation: fade-in 1s .5s backwards;
 		}
 
 		.panel__btn:hover, .panel__btn:focus {
@@ -273,6 +273,55 @@ button {
 	.main {
 		flex: 1;
 		background-color: var(--main-background-color);
+	}
+
+	.info-bar {
+		display: flex;
+		flex-direction: row;
+		border-color: 1px solid #D6DDE1;
+		background-color: var(--white);
+		padding: 0 30px;
+		height: 50px;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.breadcrumbs {
+		display: flex;
+		align-items: center;
+		font-size: 12px;
+		letter-spacing: 0.5px;
+		text-transform: uppercase;
+
+		.breadcrumbs__link {
+			color: #A6ADB1;
+			text-decoration: none;
+		}
+
+		.breadcrumbs__name {
+			color: #2E3335;
+			font-weight: 500;
+		}
+
+		.breadcrumbs__icon {
+			margin: 0 13px;
+			color: #A6ADB1;
+		}
+
+	}
+
+	.button {
+		 transition: background-color 0.4s;
+		 border-radius: 500px;
+		 background-color: #375BB6;
+		 padding: 8px 20px;
+		 font-size: 11px;
+		 letter-spacing: 1px;
+		 text-transform: uppercase;
+	}
+
+	.button:hover {
+		background-color: #2d4a93;
 	}
 
 
