@@ -278,7 +278,7 @@ button {
 	.info-bar {
 		display: flex;
 		flex-direction: row;
-		border-color: 1px solid #D6DDE1;
+		border: 1px solid #D6DDE1;
 		background-color: var(--white);
 		padding: 0 30px;
 		height: 50px;
