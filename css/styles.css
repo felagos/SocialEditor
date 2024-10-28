@@ -169,7 +169,6 @@ button {
 		}
 
 		.menu__button--active::before {
-			background-color: #2B363B;
 			background-color: #375BB6;
 			content: '';
 			height: 100%;
