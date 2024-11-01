@@ -130,8 +130,6 @@ button {
 	align-items: center;
 }
 
-.dd-toggle__icon {}
-
 .dd-toggle__image {
 	margin-right: 7px;
 	border-radius: 50%;
@@ -139,8 +137,6 @@ button {
 	height: 30px;
 	object-fit: cover;
 }
-
-.dd-toggle__text {}
 
 .app__container {
 	display: flex;
@@ -439,8 +435,6 @@ button {
 	height: 44px;
 	color: #404446;
 }
-
-.tool__icon {}
 
 .tool:last-child {
 	margin-top: auto;
