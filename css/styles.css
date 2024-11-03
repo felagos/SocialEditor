@@ -150,8 +150,6 @@ button {
 	width: 75px;
 }
 
-.menu {}
-
 .menu__button {
 	display: flex;
 	flex-direction: column;
